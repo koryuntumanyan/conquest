@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Prata&family=Roboto:wght@400;500;700&display=swap");
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.gen_size {
+  width: 100%;
+}
+
+.text_400, .head2, .text_2, .text_1, .first_text, .top_menu_text, .top_menu a, .text_logo {
+  position: relative;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  color: #1B1A17;
+}
+
+.first_screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  margin: 31px 97px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo_text a {
+  text-decoration: none;
+}
+
+.gen_logo {
+  width: 19.19px;
+  height: 19.21px;
+}
+
+.text_logo {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.14em;
+  color: #555248;
+}
+
+.top_menu {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top_menu a {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+  text-decoration: none;
+}
+
+.top_menu_text {
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 16px;
+  color: #555248;
+}
+
+.head_icons {
+  width: 7.25%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+.head_icons a {
+  text-decoration: none;
+}
+
+.bookmarks {
+  position: relative;
+  top: -4px;
+  height: 21px;
+  display: inline-flex;
+}
+
+.bookmarks_count {
+  width: 13px;
+  height: 13px;
+  padding: 13px 13px;
+  border-radius: 50%;
+  background: #E6C8B4;
+}
+
+.clm {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.ellipse {
+  z-index: -1;
+  position: absolute;
+  left: 34.33%;
+  top: -9px;
+  width: 496px;
+  height: 944.01px;
+  background: linear-gradient(180deg, rgba(234, 227, 212, 0) 0%, #EAE3D4 100%);
+  mix-blend-mode: normal;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 0 100% 100% 0/0 50% 50% 0;
+}
+
+.text_button, .text_button1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 236px;
+  margin-left: 120px;
+}
+
+.line_text, .line_text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.first_text {
+  width: 343px;
+  margin-left: 15px;
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.text_1 {
+  margin-left: 65px;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.text_2 {
+  font-family: "Roboto";
+  width: 258px;
+  margin-left: 65px;
+  margin-top: 39px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.button_1 {
+  margin-top: 64px;
+  margin-left: 65px;
+  width: 205px;
+  height: 64px;
+  background: #444240;
+  color: #FFFFFF;
+  border: solid #444240;
+}
+
+.ellipse_watch {
+  display: flex;
+  flex-direction: row;
+}
+
+.price, .watch_len {
+  position: relative;
+  font-family: "Prata";
+  font-size: 16px;
+  line-height: 22px;
+  width: 75px;
+  margin-top: 138px;
+  margin-left: 80px;
+}
+
+.watch_len {
+  margin-top: 636px;
+  margin-left: 15px;
+  margin-right: 114px;
+  width: 122px;
+}
+
+.main_watch {
+  position: relative;
+  width: 502.63px;
+  height: 804.25px;
+  margin-left: 0;
+}
+
+.line_text1 {
+  align-items: baseline;
+  align-content: center;
+}
+
+.models {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.models_head {
+  display: flex;
+}
+
+.head2 {
+  font-size: 32px;
+  line-height: 43px;
+  margin-left: 38.8%;
+  margin-top: 79px;
+}
+
+.view_all {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #444240;
+  position: relative;
+  margin-left: 328px;
+  margin-top: 115px;
+}
+
+.goods {
+  margin-left: 7%;
+  margin-right: 7%;
+  position: relative;
+  padding: 38px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.goods_view {
+  margin: 0 15px;
+}
+
+.goods_image {
+  width: 313px;
+  height: 313px;
+  align-items: center;
+  grid-column: 1;
+  grid-row: 1;
+  padding: 2px 0;
+}
+
+.watch_ellipse {
+  width: 310px;
+  height: 310px;
+  grid-column: 4/-1;
+  grid-row: 1;
+}
+
+.watch_ellipse_marge {
+  display: grid;
+  position: relative;
+}
+
+.goods_description {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.price_description {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(27, 26, 23, 0.82);
+}
+
+.goods_button {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+  text-decoration: none;
+  margin-left: 0px;
+}
+
+.text_line {
+  margin-left: 40px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 0;
+}
+
+.rect {
+  margin: 86px 0;
+  width: 468px;
+  height: 519px;
+  background: #F7F5EF;
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.banner_watch {
+  margin: 52px 0 53px 177px;
+  width: 521px;
+  height: 414px;
+}
+
+.text_button1 {
+  margin-top: 140px;
+  margin-left: 69px;
+}
+
+.quality {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+  width: 316px;
+}
+
+.txt {
+  margin-top: 38px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  width: 376px;
+  color: #444240;
+}
+
+.catalog {
+  background: #D4B098;
+  width: 205px;
+  height: 64px;
+  margin-top: 45px;
+  border: 1px solid #D4B098;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.ellipses {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 60px;
+}
+
+.first_ellipse {
+  margin-top: 25px;
+  width: 250px;
+  height: 250px;
+}
+
+.second_ellipse {
+  z-index: -1;
+  margin-top: -175px;
+  margin-left: -20px;
+  width: 250px;
+  height: 500px;
+}
+
+.screen_3 {
+  background: #FFFFFF;
+  margin: -150px 97px 90px 97px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_side {
+  margin-top: 306px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+}
+
+.social_icons {
+  margin-top: 120px;
+  display: flex;
+}
+.social_icons a:not(:first-child) {
+  margin-left: 18px;
+}
+
+.subscribe {
+  margin-top: 40px;
+  width: 376px;
+  margin-left: 2px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  color: #444240;
+}
+
+.right_side {
+  margin-top: 166px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.first_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second_row {
+  margin-left: 10px;
+}
+
+.footer {
+  background: #444240;
+  padding: 90px 182px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  margin-top: 15px;
+}
+.footer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+.footer_first_row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_logos {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.logo_name {
+  margin-top: 8px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.14em;
+  color: #FFFFFF;
+}
+
+.num_mail {
+  margin-top: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.about_company {
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=style.css.map */
